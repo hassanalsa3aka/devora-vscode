@@ -3,7 +3,8 @@
   "displayName": "Devora.js",
   "description": "Snippets and CLI commands for Devora.js projects",
   "version": "0.0.1",
-  "publisher": "devorajs",
+  "publisher": "hassansayed",
+  "author": "Devora.js",
   "private": true,
   "engines": {
     "vscode": "^1.90.0"
