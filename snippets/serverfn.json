@@ -1,0 +1,19 @@
+{
+  "Devora server function": {
+    "prefix": "devora-serverfn",
+    "scope": "typescript",
+    "body": [
+      "import { serverFn } from \"@devorajs/core\";",
+      "",
+      "export interface ${2:FunctionName}Input {",
+      "  $3",
+      "}",
+      "",
+      "export const ${1:functionName} = serverFn(async (input: ${2:FunctionName}Input, ctx) => {",
+      "  ctx.requireAuth();",
+      "  $0",
+      "});"
+    ],
+    "description": "Devora.js server function skeleton (serverFn, typed input, ctx.requireAuth)"
+  }
+}
