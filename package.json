@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "publisher": "hassansayed",
   "author": "Devora.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hassanalsa3aka/devora-vscode"
+  },
   "private": true,
   "engines": {
     "vscode": "^1.90.0"
